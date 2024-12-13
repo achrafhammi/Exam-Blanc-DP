@@ -1,8 +1,6 @@
 package achraf.strategy;
 
 import achraf.entities.Transaction;
-import achraf.entities.TransactionType;
-
 import static achraf.entities.TransactionType.VENTE;
 
 public class ScoringNotificationStrategy implements NotificationStrategy {
@@ -16,7 +14,6 @@ public class ScoringNotificationStrategy implements NotificationStrategy {
         }
         System.out.println("Nouveau balance: "+ solde);
     }
-
     public double getSolde() {
         return solde;
     }

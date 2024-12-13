@@ -5,26 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8d4d73e-1a9d-45ac-8539-0aa5b667304b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/adapters/Hdmi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/adapters/Vga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/entities/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/entities/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/entities/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/entities/TransactionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/observer/AgentObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/observer/AgentObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/strategy/DefaultNotificationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/strategy/HistoryNotificationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/strategy/NotificationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/strategy/ScoringNotificationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/achraf/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/adapter/HdmiVgaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/aspectj/cachable/Cachable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/aspectj/cachable/CachableAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/aspectj/logs/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/aspectj/logs/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/aspectj/security/SecuredBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/aspectj/security/SecurityAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/aspectj/security/SecurityContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/monitors/HdmiDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/achraf/monitors/VgaDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/achraf/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/achraf/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/achraf/adapters/Hdmi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/achraf/monitors/Hdmi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/achraf/adapters/Vga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/achraf/monitors/Vga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/achraf/entities/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/achraf/entities/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/achraf/entities/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/achraf/entities/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/achraf/strategy/DefaultNotificationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/achraf/strategy/DefaultNotificationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/achraf/strategy/ScoringNotificationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/achraf/strategy/ScoringNotificationStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +34,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -57,13 +61,17 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -109,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734076913809</updated>
-      <workItem from="1734076914837" duration="8526000" />
+      <workItem from="1734076914837" duration="24235000" />
     </task>
     <servers />
   </component>
@@ -120,9 +128,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/achraf/App.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/achraf/aspectj/logs/Log.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
